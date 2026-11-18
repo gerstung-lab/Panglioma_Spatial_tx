@@ -37,8 +37,6 @@ matplotlib.rcParams["pdf.fonttype"] = 42
 matplotlib.rcParams["ps.fonttype"] = 42
 
 # %% Colour palettes
-# Cell-type colours (Annotation_merged_scanVI). Tumour states are recoloured
-# to a single TUMOR_COLOR in `prepare_annotations`.
 CELL_TYPE_COLORS = {
     # Tumour states
     "Tumor Factor (Cortical Glia)": "#b6a179",
