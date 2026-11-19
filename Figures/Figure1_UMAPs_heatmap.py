@@ -25,7 +25,7 @@ import matplotlib.pyplot as plt
 from scipy import sparse
 
 # %% Paths (relative to the repository root; edit if your data live elsewhere)
-ADATA_ANALYSIS = Path("data/rdata_5tx_pca_euclidean_umap.h5ad")
+ADATA_ANALYSIS = Path("data/xenium_custom_panglioma.h5ad")
 OUT_DIR = Path("results/Figure1")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
