@@ -1,6 +1,8 @@
 # The cellular neighbourhoods of adult gliomas and their clinical associations
 
-Code related to the manuscript Mathioudaki et al 2026 medrxiv 
+Code related to manuscript "The cellular neighbourhoods of adult gliomas and their clinical associations" Mathioudaki et al 2026 Medrxiv 
+
+Code was restructured and cleaned up with the help of Claude Opus 5.5 (Anthropic); all code and outputs were checked by the authors.
 
 dependencies:
   - python=3.10.19
