@@ -29,8 +29,8 @@ from matplotlib.colors import LinearSegmentedColormap, Normalize
 from scipy import sparse
 
 # %% Paths (relative to the repository root; edit if your data live elsewhere)
-ADATA_TUMOR = Path("data/rdata_5tx_TUMOR_pca30_euclidean_nn10_umap_DEFAULT.h5ad")
-ADATA_FULL = Path("data/rdata_5tx_pca_euclidean_umap.h5ad")
+ADATA_TUMOR = Path("data/xenium_tumor_custom_panglioma.h5ad")
+ADATA_FULL = Path("data/xenium_custom_panglioma.h5ad")
 OUT_DIR = Path("results/Figure2")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
