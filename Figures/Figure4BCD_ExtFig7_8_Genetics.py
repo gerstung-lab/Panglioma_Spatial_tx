@@ -16,7 +16,7 @@ Not in this script:
   Fig. 4E-H        H&E analysis (separate script)
   ED Fig. 8B       Kaplan-Meier curves (separate script)
 
-Input:  source_data/SuppTable5_NhoodFractionsPerSample_withSurvival.xlsx
+Input:  source_data/SuppTable5_NhoodFractionsPerSample.xlsx
 """
 
 # %% Imports and setup
