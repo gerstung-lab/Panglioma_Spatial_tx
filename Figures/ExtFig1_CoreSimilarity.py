@@ -34,7 +34,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 
 # %% Paths (relative to the repository root; edit if your data live elsewhere)
-ADATA_ANALYSIS = Path("data/rdata_5tx_pca_euclidean_umap.h5ad")
+ADATA_ANALYSIS = Path("data/xenium_custom_panglioma.h5ad")
 OUTDIR = Path("results/ExtDataFig1")
 OUTDIR.mkdir(parents=True, exist_ok=True)
 
