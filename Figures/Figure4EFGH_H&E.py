@@ -11,6 +11,10 @@ Inputs:
     data/titan_features.parquet              TITAN slide embedding per core image
     source_data/Figure4_HE_core_table.csv    core, patient (pseudonym), diagnosis,
                                              neighbourhood fractions (he_prepare_core_table.py)
+
+Note: To adhere to local regulations, H&E data can be shared after completion of a data transfer agreement for noncommercial use. 
+Requests should be made to the corresponding author(s), with responses expected within 14 days of receipt of request.
+
 """
 
 # %% Imports and setup
