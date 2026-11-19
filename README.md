@@ -4,6 +4,8 @@ Code related to manuscript "The cellular neighbourhoods of adult gliomas and the
 
 Code was restructured and cleaned up with the help of Claude Opus 5.5 (Anthropic); all code and outputs were checked by the authors.
 
+Data will be made available in Zenodo upon publication. 
+
 dependencies:
   - python=3.10.19
   - pip=26.0.1
