@@ -46,8 +46,8 @@ from scipy.spatial.distance import pdist
 from scipy.stats import entropy
 
 # %% Paths (relative to the repository root; edit if your data live elsewhere)
-ADATA_FULL = Path("data/rdata_5tx_pca_euclidean_umap.h5ad")
-COLOC_DIR = Path("results/analysis/nhood_colocalisation")   # from analysis/nhood_colocalisation_poisson.py
+ADATA_FULL = Path("data/xenium_custom_panglioma.h5ad")
+COLOC_DIR = Path("results/Analysis/nhood_colocalisation")   # from analysis/nhood_colocalisation_poisson.py
 OUT_DIR = Path("results/Figure3")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
