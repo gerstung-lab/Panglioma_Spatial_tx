@@ -12,8 +12,6 @@ Inputs (not public):
     results/Figure1/internal/INTERNAL_patient_key_DO_NOT_SHARE.xlsx   (from Figure 1)
 Output (pseudonymised):
     source_data/Figure4_HE_core_table.csv
-
-Run from the repository root:  python Figure4/he_prepare_core_table.py
 """
 
 from pathlib import Path
