@@ -15,7 +15,9 @@
 # Dominant neighbourhood = neighbourhood with the largest fraction in the sample.
 # Log-rank tests: across all groups ("overall") and AC-like vs. TBI + Other.
 #
-# Input:  source_data/SuppTable5_NhoodFractionsPerSample_withSurvival.xlsx
+# Input:  source_data/SuppTable5_NhoodFractionsPerSample.xlsx
+# To adhere to local regulations, clinical outcome data can be shared after completion of a data transfer agreement for noncommercial use. 
+# Requests should be made to the corresponding author(s), with responses expected within 14 days of receipt of request.
 # ============================================================
 
 suppressPackageStartupMessages({
@@ -32,7 +34,7 @@ suppressPackageStartupMessages({
 # ------------------------------------------------------------
 # Paths
 # ------------------------------------------------------------
-infile  <- "source_data/SuppTable5_NhoodFractionsPerSample_withSurvival.xlsx"
+infile  <- "source_data/SuppTable5_NhoodFractionsPerSample.xlsx"
 out_dir <- "results/Figure5"
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 
