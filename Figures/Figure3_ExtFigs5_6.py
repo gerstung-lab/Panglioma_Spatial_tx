@@ -67,7 +67,7 @@ EDGE_LIMIT = 50                      # max edge length drawn in Fig. 3A
 # neighbourhood labels in the object -> names in the paper (also the plotting order)
 NHOOD_NAMES = {
     "Vascular": "Vascular",
-    "Non-malignant CNS": "TBI",
+    "TBI": "TBI",
     "Cortical glia": "OPC-like I",
     "OPC-like": "OPC-like II",
     "NPC-like": "NPC-like",
@@ -912,7 +912,7 @@ savefig(fig, "EDFig6A_colocalisation_similarity.pdf", dpi=300)
 # %% ED Fig. 6B: co-localisation per diagnostic group
 ED6_NAMES = {"MES1": "Gliosis", "MES2": "Hypoxia", "OPC-like": "OPC-like II",
              "Cortical glia": "OPC-like I", "Stressed": "Stress response",
-             "Non-malignant CNS": "TBI", "Spinal-glia": "EPN"}
+             "TBI": "TBI", "Spinal-glia": "EPN"}
 
 plot_df = poisson_dx[poisson_dx["diagnosis"].isin(diagnoses)].copy()
 first_second = [(a, b) if state_to_idx[a] <= state_to_idx[b] else (b, a)
